@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://risejs.dev/docs
+    about: Guides, recipes and the API reference.
+  - name: Security report
+    url: https://github.com/risejs/.github/blob/main/SECURITY.md
+    about: Please report security problems privately.
