@@ -1,0 +1,37 @@
+name: Bug report
+description: Something in Rise.js does not work as documented
+labels: [bug]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: risejs-core version
+      placeholder: 0.1.0-alpha.3
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: Browser and OS
+      placeholder: Chrome 131 on Windows 11
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Reproduction
+      description: A link to a small repo, or a snippet based on `npm create risejs@latest`.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Console output
+      render: text
